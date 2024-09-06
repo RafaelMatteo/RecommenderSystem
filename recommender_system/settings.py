@@ -124,3 +124,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 APP_NAME = 'Movie Recommender System' # New
 APP_VERSION = '1.0' # New
+
+# For footer use
+
+APP_DESCRIPTION = 'Proyecto personal de recomendación de películas usando Django, Data Analysis y Machine Learning'
+APP_COPY = 'RJMM'
+LAST_UPDATE = 'Última actualización: 05 de Setiembre de 2024'

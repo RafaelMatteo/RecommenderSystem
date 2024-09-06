@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.views import View
 from django.conf import settings
 
+
 # Create your views here.
 
 class HomeView(View):
@@ -16,6 +17,9 @@ class HomeView(View):
             'islocal': islocal,
             'app_name': settings.APP_NAME,
             'app_version': settings.APP_VERSION,
+            'app_description': settings.APP_DESCRIPTION,
+            'app_copy': settings.APP_COPY,
+            'last_update': settings.LAST_UPDATE
             
         }
         print(f"Application: {context.get('app_name')} - {context.get('app_version')}")

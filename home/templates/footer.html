@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block footer %}
+    <div class="container">
+        <p class="card-text text-center mt-2 me-2">
+            <small class="text-muted">
+                {{app_description}}.<br>
+                {{last_update}}<br>
+                &copy; {{app_copy}} - {{app_name}} - {{app_version}}
+            </small>
+        </p>
+    </div>
+{% endblock %}
+
+
