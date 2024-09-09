@@ -1,3 +1,4 @@
 .venv
 /notas
 __pycache__/
+movies_tmdb/

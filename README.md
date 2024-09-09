@@ -1,4 +1,4 @@
-# Recommender System - Movies
+# Movie Recommender System - Movies
 
 ## Proyecto de Django, Data Analysis y Machine Learning sobre un sistema de recomendación de peliculas.
 
@@ -40,9 +40,5 @@
 ### Code:
 
 - Python:
-
-
 - HTML:
-
-
 - CSS: 

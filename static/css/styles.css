@@ -1,0 +1,11 @@
+/* Eliminar la posición absoluta de los indicadores */
+div .carousel-indicators {
+    position: static !important; 
+    margin-top: 5px !important; /* Margen superior */
+}
+
+/* Centrar los indicadores */
+div .carousel-indicators button {
+    background-color: dimgray !important; /* Color de fondo de los indicadores */
+    margin: 0 5px !important;
+}
